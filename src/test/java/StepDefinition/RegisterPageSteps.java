@@ -103,6 +103,8 @@ public void user_validate_successfully_keyword_in_login_success_page()
 {
   String d= driver.findElement(By.xpath("//h3[text()='Login Successfully']")).getText();
   Assert.assertEquals(d, "Login Successfully");
+  System.out.println("TC 1 created by NSK Tester");
+  
 }
 
 
