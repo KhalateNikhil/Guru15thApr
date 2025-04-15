@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-04T11:57:48.980Z",
+        "line": 3,
+        "name": "Validate register page functionality",
+        "description": "",
+        "id": "test-guru99-application;validate-register-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7385506100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on register page",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_is_on_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 457248400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter firstname lastname phone and email",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_enter_firstname_lastname_phone_and_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583321000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter address city state postal code and country",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_enter_address_city_state_postal_code_and_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4358686200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username password confirm password and click on submit button",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_enter_username_password_confirm_password_and_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on success page and validate success page url",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_is_on_success_page_and_validate_success_page_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-04T11:58:01.874Z",
+        "line": 10,
+        "name": "Validate loginpage functionality",
+        "description": "",
+        "id": "test-guru99-application;validate-loginpage-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94688600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on sign in link",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_click_on_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4933897700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter valid username, password and click on submit button",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_enter_valid_username_password_and_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8357200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login successful page and validate url",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_is_on_login_successful_page_and_validate_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39750800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validate Successfully keyword in login success page",
+            "match": {
+              "location": "StepDefinition.RegisterPageSteps.user_validate_successfully_keyword_in_login_success_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Guru99 Application",
+    "description": "",
+    "id": "test-guru99-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFile/Guru.feature",
+    "tags": []
+  }
+]

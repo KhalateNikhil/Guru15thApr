@@ -1,0 +1,13 @@
+
+Scenario: Validate register page functionality                                 # AllFeatureFile/Guru.feature:3
+  Given user is on register page                                               # StepDefinition.RegisterPageSteps.user_is_on_register_page()
+  When user enter firstname lastname phone and email                           # StepDefinition.RegisterPageSteps.user_enter_firstname_lastname_phone_and_email()
+  And user enter address city state postal code and country                    # StepDefinition.RegisterPageSteps.user_enter_address_city_state_postal_code_and_country()
+  And user enter username password confirm password and click on submit button # StepDefinition.RegisterPageSteps.user_enter_username_password_confirm_password_and_click_on_submit_button()
+  Then user is on success page and validate success page url                   # StepDefinition.RegisterPageSteps.user_is_on_success_page_and_validate_success_page_url()
+
+Scenario: Validate loginpage functionality                           # AllFeatureFile/Guru.feature:10
+  When user click on sign in link                                    # StepDefinition.RegisterPageSteps.user_click_on_sign_in_link()
+  And user enter valid username, password and click on submit button # StepDefinition.RegisterPageSteps.user_enter_valid_username_password_and_click_on_submit_button()
+  Then user is on login successful page and validate url             # StepDefinition.RegisterPageSteps.user_is_on_login_successful_page_and_validate_url()
+  And user validate Successfully keyword in login success page       # StepDefinition.RegisterPageSteps.user_validate_successfully_keyword_in_login_success_page()

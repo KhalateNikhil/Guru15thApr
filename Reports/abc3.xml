@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.256">
+    <testcase classname="Test Guru99 Application" name="Validate register page functionality" time="12.878">
+        <system-out><![CDATA[Given user is on register page..............................................passed
+When user enter firstname lastname phone and email..........................passed
+And user enter address city state postal code and country...................passed
+And user enter username password confirm password and click on submit button.passed
+Then user is on success page and validate success page url..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate loginpage functionality" time="5.076">
+        <system-out><![CDATA[When user click on sign in link.............................................passed
+And user enter valid username, password and click on submit button..........passed
+Then user is on login successful page and validate url......................passed
+And user validate Successfully keyword in login success page................passed
+]]></system-out>
+    </testcase>
+</testsuite>
